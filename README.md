@@ -1,6 +1,5 @@
-![Header image](headerImage.png)
 # 🚀 iOS Developer Roadmap 
-Roadmap to becoming an iOS developer in 2018.
+My roadmap to becoming a better iOS developer in 2019.
 
 - [ ] [`iOS Developer`](RoadmapProject/Script/Generated/Resources/iOS_Developer/RESOURCES.md)
     - [ ] [`Practical knowledge`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/RESOURCES.md)
