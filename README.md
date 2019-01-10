@@ -2,75 +2,221 @@
 # 🚀 iOS Developer Roadmap 
 Roadmap to becoming an iOS developer in 2018.
 
-## ☝️ What is it?
-This is a tree-like compilation of topics highly relevant to iOS development. Both image and text version are generated from human readable content file.
-
-## ✌️ Who is it for?
-The roadmap will be helpul for:
-
-- anyone who wants to become an iOS developer
-- iOS developers who desire to become experts
-- iOS developers who are preparing for interviews and need to brush up knowledge
-- iOS developers who need to compile own set of interview questions
-
-
-## 👌 Why these topics?
-See [this article](https://medium.com/@borlov/c9a24f413457) explaining selection of topics.
-
-## 👨‍🎓 How to use this roadmap
-1. Find a topic you want to study.
-2. Go to corresponding resources section.
-3. Study until you can confidently explain the topic to your cat.
-4. (Optional) tick the checkbox next to the topic. [How to tick a checkbox](HowTo/HOWTOCHECKBOX.md).
-4. Go to step 1.
-
-`Essential topics` are topics which significantly contribute to understanding of iOS development. Consequently, it is a good idea to study them first as they are often encountered on interviews.
-
-Start from `Getting started` section if you haven't done any iOS development yet.
-
-## 🗺 Image version 
-Roadmap of essential topics. Roadmap for all topics is [here.](RoadmapProject/Script/Generated/ROADMAP.png)
-![Header image](RoadmapProject/Script/Generated/ESSENTIALROADMAP.png)
-
-## 📝 Text version
-[Text version with materials to study.](RoadmapProject/Script/Generated/ROADMAP.md)
-
-## 🤝 How to contribute
-
-- add new topics to `Content.yml`
-- add missing study materials to `Content.yml`
-- throw ideas at me on [![Twitter: @Bohdan_Orlov](https://img.shields.io/badge/twitter-@Bohdan_Orlov-4d66b3.svg?style=flat)](https://twitter.com/bohdan_orlov)
-
-
-[The complete contribution guide.](HowTo/HOWTOPR.md)
-
-
-## ☑️ TODO
-- [x] content file with topics and materials
-- [x] ability to generate README.md from the content file
-- [x] ability to generate Roadmap tree image from the content file
-- [ ] make generation script less miserable:
-	- [x] make it readable 🤦
-	- [ ] output Yaml format violation errors
-	- [ ] handle errors of parsing Yaml into Topics and Resources
-	- [ ] handle file read/write errors
-	- [ ] handle image generation errors
-- [x] automatic regeneration of roadmap after every commit
-- [ ] automatic validation of content format on PR
-- [ ] make sure Travis doesn't deploy if generation script fails
-
-## ⚙️ Generation status
-[![Travis](https://travis-ci.org/BohdanOrlov/iOS-Developer-Roadmap.svg?branch=master)](https://travis-ci.org/BohdanOrlov/iOS-Developer-Roadmap)
-
-## 📃 License
-
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-
-## 📊 Skills Matrix 
-You might also like the [iOS Developer Skills Matrix](https://github.com/BohdanOrlov/ios-skills-matrix).
-![Skills matrix](https://github.com/BohdanOrlov/ios-skills-matrix/raw/master/matrix.png)
-
-## 📚 iOS and Swift Tutorials and Courses
-
-Learn iOS development & Swift online from the best iOS Swift tutorials and courses recommended by the programming community. 
-https://hackr.io/tutorials/learn-ios-swift
+- [ ] [`iOS Developer`](RoadmapProject/Script/Generated/Resources/iOS_Developer/RESOURCES.md)
+    - [ ] [`Practical knowledge`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/RESOURCES.md)
+        - [ ] [Getting started](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Getting_started/RESOURCES.md)
+            - [ ] [First pet project ideas](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Getting_started/First_pet_project_ideas/RESOURCES.md)
+        - [ ] [`Languages`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Languages/RESOURCES.md)
+            - [ ] [`Objective-C`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Languages/Objective-C/RESOURCES.md)
+                - [ ] [`Blocks`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Languages/Objective-C/Blocks/RESOURCES.md)
+                    - [ ] [Memory Management](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Languages/Objective-C/Blocks/Memory_Management/RESOURCES.md)
+                - [ ] [KVC](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Languages/Objective-C/KVC/RESOURCES.md)
+                - [ ] [KVO](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Languages/Objective-C/KVO/RESOURCES.md)
+                - [ ] [Toll-free bridging](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Languages/Objective-C/Toll-free_bridging/RESOURCES.md)
+                - [ ] [`Runtime`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Languages/Objective-C/Runtime/RESOURCES.md)
+                    - [ ] [Method messaging](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Languages/Objective-C/Runtime/Method_messaging/RESOURCES.md)
+                    - [ ] [NSZombies and KVO implementation](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Languages/Objective-C/Runtime/NSZombies_and_KVO_implementation/RESOURCES.md)
+                    - [ ] [Swizzling](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Languages/Objective-C/Runtime/Swizzling/RESOURCES.md)
+            - [ ] [`Swift`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Languages/Swift/RESOURCES.md)
+                - [ ] [Closures](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Languages/Swift/Closures/RESOURCES.md)
+                - [ ] [`Initializers`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Languages/Swift/Initializers/RESOURCES.md)
+                - [ ] [Generics](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Languages/Swift/Generics/RESOURCES.md)
+                - [ ] [`Protocols`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Languages/Swift/Protocols/RESOURCES.md)
+                - [ ] [`Structs`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Languages/Swift/Structs/RESOURCES.md)
+                - [ ] [`Enums`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Languages/Swift/Enums/RESOURCES.md)
+                - [ ] [Runtime](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Languages/Swift/Runtime/RESOURCES.md)
+                    - [ ] [Method dispatch](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Languages/Swift/Runtime/Method_dispatch/RESOURCES.md)
+        - [ ] [`Memory management`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Memory_management/RESOURCES.md)
+            - [ ] [`Stack and Heap`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Memory_management/Stack_and_Heap/RESOURCES.md)
+            - [ ] [`Value vs Reference type`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Memory_management/Value_vs_Reference_type/RESOURCES.md)
+            - [ ] [MRC](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Memory_management/MRC/RESOURCES.md)
+            - [ ] [`ARC`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Memory_management/ARC/RESOURCES.md)
+                - [ ] [Weak references](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Memory_management/ARC/Weak_references/RESOURCES.md)
+            - [ ] [`Retain cycles`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Memory_management/Retain_cycles/RESOURCES.md)
+            - [ ] [Garbage collection](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Memory_management/Garbage_collection/RESOURCES.md)
+            - [ ] [`Memory leaks`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Memory_management/Memory_leaks/RESOURCES.md)
+            - [ ] [Shallow and deep copying](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Memory_management/Shallow_and_deep_copying/RESOURCES.md)
+            - [ ] [Autorelease pool](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Memory_management/Autorelease_pool/RESOURCES.md)
+        - [ ] [`Multithreading and concurrency`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Multithreading_and_concurrency/RESOURCES.md)
+            - [ ] [POSIX and NSThreads](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Multithreading_and_concurrency/POSIX_and_NSThreads/RESOURCES.md)
+            - [ ] [Perform selector family](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Multithreading_and_concurrency/Perform_selector_family/RESOURCES.md)
+            - [ ] [`GCD`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Multithreading_and_concurrency/GCD/RESOURCES.md)
+            - [ ] [`NSOperation(Queue)`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Multithreading_and_concurrency/NSOperation(Queue)/RESOURCES.md)
+            - [ ] [`Runloop`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Multithreading_and_concurrency/Runloop/RESOURCES.md)
+            - [ ] [`Synchronization`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Multithreading_and_concurrency/Synchronization/RESOURCES.md)
+            - [ ] [Problems](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Multithreading_and_concurrency/Problems/RESOURCES.md)
+                - [ ] [Race condition](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Multithreading_and_concurrency/Problems/Race_condition/RESOURCES.md)
+                - [ ] [Deadlock](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Multithreading_and_concurrency/Problems/Deadlock/RESOURCES.md)
+                - [ ] [Readers–writers problem](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Multithreading_and_concurrency/Problems/Readers–writers_problem/RESOURCES.md)
+        - [ ] `Cocoa Touch`
+            - [ ] [`UIKit`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/RESOURCES.md)
+                - [ ] [`UIApplication`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/UIApplication/RESOURCES.md)
+                    - [ ] [`States`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/UIApplication/States/RESOURCES.md)
+                    - [ ] [UIApplicationDelegate](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/UIApplication/UIApplicationDelegate/RESOURCES.md)
+                - [ ] [`UIViews`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/UIViews/RESOURCES.md)
+                    - [ ] [`UITableViews`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/UIViews/UITableViews/RESOURCES.md)
+                    - [ ] [`UICollectionViews`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/UIViews/UICollectionViews/RESOURCES.md)
+                - [ ] [Layers](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/Layers/RESOURCES.md)
+                - [ ] [`Layout`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/Layout/RESOURCES.md)
+                    - [ ] [`Frame-based`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/Layout/Frame-based/RESOURCES.md)
+                    - [ ] [`Autolayout`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/Layout/Autolayout/RESOURCES.md)
+                        - [ ] [UIStackView](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/Layout/Autolayout/UIStackView/RESOURCES.md)
+                - [ ] [Animations](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/Animations/RESOURCES.md)
+                - [ ] [Transform](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/Transform/RESOURCES.md)
+                - [ ] [`Navigation`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/Navigation/RESOURCES.md)
+                - [ ] [`UIViewController`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/UIViewController/RESOURCES.md)
+                    - [ ] [`Lifecycle`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/UIViewController/Lifecycle/RESOURCES.md)
+            - [ ] [`Foundation`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/Foundation/RESOURCES.md)
+                - [ ] [`Notifications vs Delegation vs Observing`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/Foundation/Notifications_vs_Delegation_vs_Observing/RESOURCES.md)
+                - [ ] [Collections](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/Foundation/Collections/RESOURCES.md)
+                - [ ] [`Networking`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/Foundation/Networking/RESOURCES.md)
+                - [ ] [`Serialization`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/Foundation/Serialization/RESOURCES.md)
+                    - [ ] [NSCoding](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/Foundation/Serialization/NSCoding/RESOURCES.md)
+                    - [ ] [`Codable`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/Foundation/Serialization/Codable/RESOURCES.md)
+                    - [ ] [`JSON`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/Foundation/Serialization/JSON/RESOURCES.md)
+                    - [ ] [XML](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/Foundation/Serialization/XML/RESOURCES.md)
+                    - [ ] [Protobuf](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/Foundation/Serialization/Protobuf/RESOURCES.md)
+            - [ ] [UserNotifications](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UserNotifications/RESOURCES.md)
+            - [ ] [Core Location](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/Core_Location/RESOURCES.md)
+            - [ ] [Core Motion](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/Core_Motion/RESOURCES.md)
+            - [ ] [`Work in background mode`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/Work_in_background_mode/RESOURCES.md)
+        - [ ] `Software Architecture`
+            - [ ] `Design Patterns`
+                - [ ] [`Cocoa`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Cocoa/RESOURCES.md)
+                    - [ ] Abstract Factory
+                        - [ ] [Class cluster](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Cocoa/Abstract_Factory/Class_cluster/RESOURCES.md)
+                    - [ ] Adapter
+                    - [ ] Command Pattern
+                    - [ ] Chain of Responsibility
+                    - [ ] Decorator
+                        - [ ] Delegation
+                        - [ ] Categories
+                    - [ ] Facade
+                    - [ ] Memento
+                    - [ ] Observer
+                    - [ ] Proxy
+                    - [ ] Receptionist
+                    - [ ] Singleton
+                    - [ ] Template Method
+                    - [ ] MVC
+                - [ ] [`Architectural`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Architectural/RESOURCES.md)
+                    - [ ] [`MVC`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Architectural/MVC/RESOURCES.md)
+                    - [ ] [`MVVM`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Architectural/MVVM/RESOURCES.md)
+                    - [ ] `MVP`
+                    - [ ] [`Clean architecture`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Architectural/Clean_architecture/RESOURCES.md)
+                        - [ ] [VIPER](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Architectural/Clean_architecture/VIPER/RESOURCES.md)
+                        - [ ] [RIBs](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Architectural/Clean_architecture/RIBs/RESOURCES.md)
+                    - [ ] [Coordinators](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Architectural/Coordinators/RESOURCES.md)
+                - [ ] `Creational`
+                    - [ ] Factory
+                    - [ ] Abstract Factory
+                    - [ ] Builder
+                    - [ ] Factory Method
+                    - [ ] Object Pool
+                    - [ ] Prototype
+                    - [ ] [Singleton](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Creational/Singleton/RESOURCES.md)
+                - [ ] `Structural`
+                    - [ ] Adapter
+                    - [ ] Bridge
+                    - [ ] Composite
+                    - [ ] Decorator
+                    - [ ] Facade
+                    - [ ] Flyweight
+                    - [ ] Proxy
+                - [ ] `Behavioural`
+                    - [ ] Command
+                    - [ ] Chain of responsibility
+                    - [ ] Interpreter
+                    - [ ] Iterator
+                    - [ ] Mediator
+                    - [ ] Memento
+                    - [ ] Observer
+                    - [ ] State
+                    - [ ] Strategy
+                    - [ ] Visitor
+                - [ ] Concurrency
+                    - [ ] Anti-pattern
+            - [ ] `Design Principles`
+                - [ ] [`SOLID`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Principles/SOLID/RESOURCES.md)
+                - [ ] `Inversion of Control`
+                    - [ ] [`Dependency Injection`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Principles/Inversion_of_Control/Dependency_Injection/RESOURCES.md)
+                    - [ ] Service Locator
+                - [ ] [Protocol-Oriented Programming](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Principles/Protocol-Oriented_Programming/RESOURCES.md)
+        - [ ] `Dependencies management`
+            - [ ] [Cocoapods](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Dependencies_management/Cocoapods/RESOURCES.md)
+            - [ ] [Carthage](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Dependencies_management/Carthage/RESOURCES.md)
+            - [ ] [Swift Package Manager](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Dependencies_management/Swift_Package_Manager/RESOURCES.md)
+        - [ ] Project structure and File/Group organisation
+        - [ ] `Version Control Systems`
+            - [ ] [`Git`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Version_Control_Systems/Git/RESOURCES.md)
+        - [ ] Debugging
+            - [ ] [Instruments](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Debugging/Instruments/RESOURCES.md)
+            - [ ] Best practices
+                - [ ] Checklists
+        - [ ] UX
+        - [ ] `Caching and Persistency`
+            - [ ] [Core Data](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Caching_and_Persistency/Core_Data/RESOURCES.md)
+            - [ ] [Realm](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Caching_and_Persistency/Realm/RESOURCES.md)
+            - [ ] YAPDatabase
+        - [ ] `Testing`
+            - [ ] [`Unit Tests`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Testing/Unit_Tests/RESOURCES.md)
+            - [ ] Snapshot Tests
+            - [ ] Functional test
+            - [ ] [TDD](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Testing/TDD/RESOURCES.md)
+            - [ ] [BDD](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Testing/BDD/RESOURCES.md)
+        - [ ] Performance optimization
+            - [ ] Increase FPS
+            - [ ] Decrease memory footprint
+        - [ ] Code signing
+        - [ ] Tools
+            - [ ] IDE
+                - [ ] Xcode
+                    - [ ] [Interface Builder](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Tools/IDE/Xcode/Interface_Builder/RESOURCES.md)
+            - [ ] Swiftlint
+            - [ ] Sourcery
+            - [ ] [Fastlane](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Tools/Fastlane/RESOURCES.md)
+        - [ ] Continuous Integration
+            - [ ] Jenkins
+            - [ ] Xcode server
+        - [ ] Security
+            - [ ] [Keychain](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/Security/Keychain/RESOURCES.md)
+            - [ ] Security Transforms API
+        - [ ] tvOS
+            - [ ] [Focus interactions](RoadmapProject/Script/Generated/Resources/iOS_Developer/Practical_knowledge/tvOS/Focus_interactions/RESOURCES.md)
+        - [ ] WatchKit
+    - [ ] `Computer Science knowledge`
+        - [ ] [`Algorithms`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Computer_Science_knowledge/Algorithms/RESOURCES.md)
+            - [ ] `Sorting`
+            - [ ] `Graph Theory`
+                - [ ] Trees
+            - [ ] [`Strings`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Computer_Science_knowledge/Algorithms/Strings/RESOURCES.md)
+            - [ ] Greedy
+            - [ ] Dynamic Programming
+            - [ ] Bit Manipulation
+            - [ ] `Recursion`
+            - [ ] Game Theory
+            - [ ] NP Complete
+            - [ ] [`Big-O notation`](RoadmapProject/Script/Generated/Resources/iOS_Developer/Computer_Science_knowledge/Algorithms/Big-O_notation/RESOURCES.md)
+        - [ ] `Abstract Data Types`
+            - [ ] `Stack`
+            - [ ] `Array`
+            - [ ] `List`
+            - [ ] `Map`
+            - [ ] Multimap
+            - [ ] `Set`
+            - [ ] Multiset (Bag)
+            - [ ] `Graph`
+                - [ ] Tree
+            - [ ] `Queue`
+            - [ ] Priority Queue
+            - [ ] Double-ended priority queue
+            - [ ] Double-ended queue
+        - [ ] `System design`
+            - [ ] [Problems](RoadmapProject/Script/Generated/Resources/iOS_Developer/Computer_Science_knowledge/System_design/Problems/RESOURCES.md)
+        - [ ] Programming Paradigms
+            - [ ] Object-Oriented
+            - [ ] Functional
+                - [ ] Functional Reactive Programming Frameworks
+                    - [ ] React Native
+                    - [ ] [RxSwift](RoadmapProject/Script/Generated/Resources/iOS_Developer/Computer_Science_knowledge/Programming_Paradigms/Functional/Functional_Reactive_Programming_Frameworks/RxSwift/RESOURCES.md)
+                    - [ ] RxRealm, RxDataSources
